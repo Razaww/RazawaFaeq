@@ -1,7 +1,7 @@
 /* Change color of box */
 
 .box {
-  background-image: linear-gradient(to top, #ff9a9e 0%, #fecfef 99%, #fecfef 100%);
+  background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
   border-radius: 25px;
 }
 .image {
@@ -18,7 +18,8 @@ body {
 }
 
 footer {
-  background-color: #262323; /* Adjust background color */
+  background: linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.25) 200%);
+  background-blend-mode: multiply;
   color: #fff; 
   padding: 20px; 
   width: 100%;
